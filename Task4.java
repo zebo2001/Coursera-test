@@ -1,14 +1,11 @@
-package Homework4;
+package Homework2;
 
 public class Task4 {
     public static void main(String[] args) {
-        int a = 7;
-        int b = 9;
-
-        int total = b++ - --a * a++ + b - a + ++a + ++b%a + --a + ++b ;
-
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println("Total: "+total);
+        int number = 9;
+        if (number%2==0)
+            System.out.println(number+ " is even number");
+        else
+            System.out.println(number + " is odd number");
     }
 }
